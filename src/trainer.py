@@ -289,6 +289,8 @@ class EHRClassifier(EHRTrainer):
                                 stop_flag = True; break
                 if stop_flag: break
 
+            checkpoint = torch.load(self.args.savepth, map_location=self.device)
+            self.model.load_state_dict(checkpoint["model"])
             self.validate(self.test_dl)
             self.logger.info('Test performance -> Test Loss: {:.4f} Test AUROC: {:.4f}'.format(
                 self.val_loss, self.roc_auc))
