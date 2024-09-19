@@ -1,7 +1,7 @@
 from src.packages import *
 
 def dose_dummy(v):
-    if v <= 30:
+    if v <= 28:
         return 'short'
     else:
         return 'long'
