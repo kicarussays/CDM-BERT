@@ -1,6 +1,6 @@
 # CDM-BERT
 
-The source code for "Pretrained Patient Trajectories for Adverse Drug Event Prediction Using Common Data Model-based Electronic Health Records".
+The source code for "Pretrained Patient Trajectories for Adverse Drug Event Prediction Using Common Data Model-based Electronic Health Records". </br>
 Citation: Kim, J., Kim, J.S., Lee, JH. et al. Pretrained patient trajectories for adverse drug event prediction using common data model-based electronic health records. Commun Med 5, 232 (2025). https://doi.org/10.1038/s43856-025-00914-7
 
 ## Abstract
