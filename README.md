@@ -1,6 +1,7 @@
 # CDM-BERT
 
-Official code for "Pretrained Patient Trajectories for Adverse Drug Event Prediction Using Common Data Model-based Electronic Health Records".
+The source code for "Pretrained Patient Trajectories for Adverse Drug Event Prediction Using Common Data Model-based Electronic Health Records".
+Citation: Kim, J., Kim, J.S., Lee, JH. et al. Pretrained patient trajectories for adverse drug event prediction using common data model-based electronic health records. Commun Med 5, 232 (2025). https://doi.org/10.1038/s43856-025-00914-7
 
 ## Abstract
 **Background**. Pretraining electronic health record (EHR) data using language models by treating patient trajectories as natural language sentences has enhanced performance across various medical tasks. However, EHR pretraining models have never been utilized in adverse drug event (ADE) prediction. We constructed and externally validated the EHR pretraining model for several ADE prediction tasks and qualitatively analyzed the important features of each ADE cohort.
